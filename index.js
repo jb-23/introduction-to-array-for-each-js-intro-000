@@ -4,3 +4,6 @@ function doToElementsInArray(a, f) {
 }
 
 // Add your changeCompletely() function here:
+function changeCompletely(element, i, array) {
+  array[i] = Math.random() * 100;
+}
